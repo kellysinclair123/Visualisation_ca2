@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <title>CA2</title>
+
+        <!--Bootstrap CSS-->
+        <link href="https:cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--My Stylesheet-->
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!--Bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity=""></script>
+
+        <!--My Javascript file-->
+        <script src="scripts/myScripts.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#About">About me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Hobbies & Interests">Hobbies & Interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact">Contact me</a></li>
+                <li class="nav-item"><a class="nav-link" href="bootstrap.html">Bootstrap Components</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <!--Home Section-->
+    <div id="Home" class="container-fluid text-centre py-5 bg-light d-flex align-items-center" style="min-height: 100vh; padding-top: 120px;">
+        <div class="container-fluid">
+            <div class="d-flex flex-column align-items-center">
+                <!--image-->
+                <img src="images/linkdin-photo.jpg"
+                    alt="Your photo" 
+                    class="img-fluid rounded-circle mb-4 shadow"
+                    style="width: 180px; height: 180px; object-fit: cover;">
+
+                <!--Name-->
+                <h1> Kelly Sinclair</h1>
+
+            </div>
+            <div class="d-flex flex-column align-items-center bg-light">
+
+                <!--course-->
+                <p>Computing with IT Management</p>
+
+                <p>I am a 4th Year student in TU Dublin located in their tallaght campus. </p>
+
+                <!--Contact modal-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Contact Me
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Me</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p><strong>Email:</strong>  x00196171@mytudublin.ie</p>
+                        <p><strong>Number:</strong> +353 87 348 9121</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About me section-->
+    <div id="About" class="container-fluid text-centre py-5 d-flex align-items-center">
+        <h2> About me</h2>
+            <div class="col-md-8 ext-centre py-5 d-flex align-items-center" style="padding-left: 150px;">
+                <p>My name is Kelly Sinclair, I am a 4th Year student studing Computing with IT Management. Ive always enjoyed working with technology,
+                    especially solving problems and figuring out how things work.Throughout my studies, I’ve been exploring different areas of computing such as programming, 
+                    web development, and IT systems, and I really enjoy the challenge of improving. I’m still discovering which area I want to focus on in the future, 
+                    but I’m excited to keep learning and growing my skills.
+                </p>
+
+
+            </div>
+    </div>
+
+    <!--Education-->
+    <div id="Education" class="d-flex flex-column align-items-center bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Education</h2>
+
+            <!-- Intro Paragraph -->
+            <p class="text-center mb-5">
+            Below is a summary of my academic performance throughout my course. Click on a year to see the modules and grades
+            </p>
+
+        </div>
+        <div class="d-flex">
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Year 1
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li><strong>Discrete Mathematics 1:</strong> D</li>
+                        <li><strong>System Analysis:</strong> C</li>
+                        <li><strong>Statistics:</strong> D</li>
+                        <li><strong>Software Development 1:</strong> D</li>
+                        <li><strong>Software Development 2:</strong> D</li>
+                        <li><strong>Social Media Communications:</strong> B</li>
+                        <li><strong>Database Fundamentals:</strong> C</li>
+                        <li><strong>Operating Systems:</strong> D</li>
+                        <li><strong>Computer Architecture:</strong> C+</li>
+                        <li><strong>Visual Design:</strong> B-</li>
+                        <li><strong>Business & Information systems:</strong> B-</li>
+                        <li><strong>Critical Skills:</strong> B+</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Year 2
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li><strong>Discrete Mathematics 2:</strong> B</li>
+                        <li><strong>Client side Web Development:</strong> D</li>
+                        <li><strong>IT Scripting & Automation:</strong> C</li>
+                        <li><strong>Advanced Database Technologies:</strong> C</li>
+                        <li><strong>Network Fundamentals:</strong> C+</li>
+                        <li><strong>Software Quality Testing:</strong> C</li>
+                        <li><strong>Project:</strong> B</li>
+                        <li><strong>IT Service Management:</strong> D</li>
+                        <li><strong>Information Security:</strong> C</li>
+                        <li><strong>Database Admin & Analysis:</strong> C</li>
+                        <li><strong>Management Science:</strong> B-</li>
+                        <li><strong>Routing & Switching essentials:</strong> C</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Year 3
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li><strong>Cloud Service & Distribution:</strong> C</li>
+                        <li><strong>Big Data Technologies:</strong> D</li>
+                        <li><strong>Advanced Routing & Switching:</strong> D</li>
+                        <li><strong>InternShip:</strong> Pass</li>
+                        <li><strong>Server-side Web Development:</strong> C</li>
+                        <li><strong>Software Quality Testing:</strong> C</li>
+                        <li><strong>Innovation & Entrepreneurship:</strong> B</li>
+                        <li><strong>Operating Systems:</strong> C+</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Projects-->
+    <div id="Projects" class="container-fluid py-5 d-flex align-items-center bg-light">
+        <div class="card ">
+            <img src="images/car.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Car Tracking System</h5>
+                <p class="card-text">In Second year myself and fellow students were placed into groups to create a basic project involving a front-end and back-end system.
+                    we created a system that allows us to track cars we rent out by scanning each vehicle’s ID or tag.
+                     This made managing the rental process a lot more organized and helped us keep better control of our fleet as it informed us of points such as:</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">We can easily see where all the cars are at any given time.</li>
+                <li class="list-group-item">It shows how many cars are in need of maintenance.</li>
+                <li class="list-group-item">It keeps daily tracking simple and helps prevent double booking.</li>
+            </ul>
+        </div>    
+
+    </div>
+
+
+    <!--Experience-->
+    <div id="Experience" class="card d-flex align-items-center py-5">
+
+        <h2>Experience</h2>
+
+        <img src="images/daf_logo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Clerical Officer of IT Infrastructure</h5>
+                <p class="card-text">During my work placement in the Department of Agriculture, I got the chance to learn a lot about how an IT support team works day to day.
+                    A big part of my role was answering phone calls and helping staff with different IT issues.
+                    I also helped with imaging and setting up laptops for both new and existing employees, making sure each device was ready for them to use. 
+                    Another task I worked on was keeping track of equipment that staff requested and making sure everything was recorded and delivered correctly.
+                    Overall, the experience helped me build practical IT skills and understand what it’s like to work in a professional environment.
+                </p>
+        </div>
+    </div>
+
+
+    <!--Hobbies & Interests-->
+    <div id="Hobbies & Interests" class="py-5" style="padding: 5%;">
+        <div  id="carouselCaptions" class="carousel slide py-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="images/drift.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white bg-dark">Modified cars</h5>
+                <p class="text-white bg-dark">Working on cars and going to car shows is one of my favourite things to do.
+                    Seeing many different cars modified in cool ways makes it really interesting. Drift shows are also
+                    car events i enjoy going to as i would love to one day drive a drift car myself.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="images/concerts.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-white bg-dark">Concerts</h5>
+                <p class="text-white bg-dark"> Like many people an interest of mine is going to concerts.
+                    Concerts always have such an amazing atmosphere and the energy is electric. I do have to travel abroad
+                    to london for some concerts as sadly Ireland is never really on some bands and singers tour lists.
+                </p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="images/musicals.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+                <h5 class="text-white bg-dark">Musicals</h5>
+                <p class="text-white bg-dark">Along with concerts musicals are one of the main things i love. 
+                    My biggest dream is to go to New York and see some of the best musicals on Broadway like Hamilton </p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+
+    <!--Contact me-->
+    <div id="Contact" class="container py-5" style="min-height: 100vh; padding-top: 120px;">
+	    <div class="row justify-content-center">
+		    <div class="col-12 col-md-8 col-lg-6 pb-5">
+
+                <!--Form header-->
+
+                <form action="mail.php" method="post">
+                    <div class="card border-primary rounded-0">
+                        <div class="card-header p-0">
+                            <div class="bg-info text-white text-center py-2">
+                                <h3><i class="fa fa-envelope"></i>Get in Contact </h3>
+                                <p class="m-0">Id love to chat</p>
+                            </div>
+                        </div>
+                        <div class="card-body p-3">
+
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="name" name="Email" placeholder="Email" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Write your message please" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="send" class="btn btn-info btn-block rounded-0 py-2">
+                                </div>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    
+    
+
+    </body>
+
+
+</html>
